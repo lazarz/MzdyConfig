@@ -1,0 +1,8 @@
+name: Zsolt
+job: Developer
+name2: Vika
+job2: astistentka
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010
