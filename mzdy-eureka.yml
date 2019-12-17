@@ -1,0 +1,12 @@
+server.port: ${PORT:8761}
+server.use-forward-headers: true
+
+eureka:
+  instance:
+    hostname: ${HOST:localhost}
+    port: ${server.port}
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/      
