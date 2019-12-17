@@ -1,4 +1,4 @@
-server.port: ${PORT:8761}
+server.port: ${PORT:8010}
 server.use-forward-headers: true
 
 eureka:
@@ -9,4 +9,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/      
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
