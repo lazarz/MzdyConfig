@@ -11,4 +11,6 @@ job: Developer
 name2: Vika
 job2: astistentka
 mail:
-  blabla: testBlablaChanged
+  login: testBlablaChanged
+  appAdministratorLastName: Zsolt default
+  appAdministratorFirstName: Lazar default

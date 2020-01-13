@@ -5,4 +5,7 @@ app:
   assistent:
     firstName: Vika
     lastName: Lazar
-testValue: qa-testValue
+mail:
+  login: testBlablaQA
+  appAdministratorLastName: Zsolt QA
+  appAdministratorFirstName: Lazar QA
