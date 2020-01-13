@@ -4,8 +4,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
-blabla: defaultTestValue
+family-service:
+  blabla: defaultBlabla
 name: Zsolt
 job: Developer
 name2: Vika
 job2: astistentka
+mail:
+  blabla: testBlabla
