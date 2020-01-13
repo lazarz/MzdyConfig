@@ -5,3 +5,4 @@ app:
   assistent:
     firstName: Vika
     lastName: Lazar
+testValue: dev-testValue
