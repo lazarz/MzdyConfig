@@ -4,7 +4,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
-
+testValue: defaultTestValue
 name: Zsolt
 job: Developer
 name2: Vika
