@@ -2,13 +2,14 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
-family-service:
-  blabla: defaultBlabla
-name: Zsolt
-job: Developer
-name2: Vika
-job2: astistentka
 mail:
   login: testBlablaChanged
   appAdministratorLastName: Zsolt default
   appAdministratorFirstName: Lazar default
+spring:
+  jpa:
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
