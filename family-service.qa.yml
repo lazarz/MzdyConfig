@@ -1,0 +1,7 @@
+app:
+  administrator:
+    firstName: Zsolt
+    lastName: QA Tester
+  assistent:
+    firstName: Vika
+    lastName: Lazar
