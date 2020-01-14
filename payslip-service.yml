@@ -10,3 +10,6 @@ ribbon:
 employee-service:
   ribbon:
     listOfServers: http://localhost:8400, http://localhost:8401, http://localhost:8402
+netflix-zuul-api-gateway-server:
+  ribbon:
+    listOfServers: http://localhost:8765
