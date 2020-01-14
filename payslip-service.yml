@@ -6,4 +6,7 @@ ribbon:
   ReadTimeout: 60000
   connection-timeout: 3000
   eureka:
-    enabled: true
+    enabled: false
+employee-service:
+  ribbon:
+    listOfServers: http://localhost:8400, http://localhost:8401
