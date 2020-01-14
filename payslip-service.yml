@@ -9,4 +9,4 @@ ribbon:
     enabled: false
 employee-service:
   ribbon:
-    listOfServers: http://localhost:8400, http://localhost:8401
+    listOfServers: http://localhost:8400, http://localhost:8401, http://localhost:8402
