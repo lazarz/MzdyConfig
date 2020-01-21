@@ -17,6 +17,6 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/family
     username: postgres
-    password: postgres
+    password: mysecret
 
 
